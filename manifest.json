@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Dramatic Lichess",
+	"version": "0.1",
+	"description": "Adding some drama to Lichess games!",
+
+	"content_scripts": [
+		{
+			"matches": ["*://lichess.org/*"],
+			"js": ["background.js"]
+		}
+	]
+}
